@@ -1,106 +1,127 @@
-
-
-.home-webpage-title {
-    color:#a600ff;
-    height: 300%;
-    border-radius: 5px;
-    border-top-left-radius: 0px;
-    border-bottom-right-radius:0px;
-    border-width:5px;
-    border-left-width:10px;
-    border-right-width:10px;
-    margin:3px;
-    margin: top 0px;
-    margin-bottom:0px;
-    font-family: "fantasy",Papyrus;
-    margin-bottom:0%;
-    margin-right:25%;
-    margin-left:26%;
-    border-radius: 5px; 
-}
-
-
-.vit-homepage-header {
-    display:inline;
-    margin: 30px;
-    
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    scrollbar-width: none;
 }
 
 .full-web-bg {
     background: 
-    repeating-linear-gradient(0deg, 		#181818 0px, 		#181818 1px, transparent 1px, transparent 700%),
-    repeating-linear-gradient(90deg, 		#181818 0px, 		#181818 1px, transparent 1px, transparent 700%);
+    repeating-linear-gradient(0deg, #181818 0px, #181818 1px, transparent 1px, transparent 10%),
+    repeating-linear-gradient(90deg, #181818 0px, #181818 1px, transparent 1px, transparent 10%);
   background-size: 20px 20px;
   padding: 20px; 
   color: #f0f007; 
   background-color: black;
-  cursor: crosshair;
+  cursor: url("cursor.png") , auto;
+  scrollbar-width:0;
 }
 
-.main1 {
-    height: 195px;
-    width:195px;
-    margin:1%;
+.vit-homepage-header {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-left:12%;
     margin-top:3%;
-    margin-left:3%;
-    margin-right:3%;
-    margin-bottom:10%;
-    box-shadow:15px 15px 15px 15px #000000;
-    display: inline-block;
 }
 
-.main2 {
-    height:195px;
-    width:195px;
-    margin:1%;
-    margin-left:3%;
-    margin-top:3%;
-    margin-right:3%;
-    margin-bottom:20%;
-    box-shadow:15px 15px 15px black;
-    display: inline-block;
-
-
+#home-webpage-title {
+    color:#a600ff;
+    height:300%;
+    font-family: "fantasy",Papyrus;
+    margin-top: 3%;
+    margin-right:30%;
+    margin-left:0;
+    position:relative;
+    right:7%;
 }
 
-main2:hover  {
-    background-color: #0056b3; 
-    transform: scale(1.1);
-}
-
-
-
-
-
-
-.club-heading{
-    background-color:#185cab;
-    border: block width 1px;
-    border-style:inset ;
-    color: rgb(0, 0, 0);
-    text-decoration:underline #185cab;
-    border-radius:10px;
-    border-bottom-color: #888888;
-    border-top-color: #888888;
-    border-right-color: #888888;
-    border-left-color: #888888;
-    border-bottom-color: #888888;
-    
-
-    
-}
-
-.vitlogo {
-    margin-left:43%;
-    margin-right:40%;
+#vitlogo {
+    width:18%;
     margin-top:0%;
+    margin-left:50%;
+}
+
+.main-content-back {
+    margin-top:4%;
+    margin-left:6%;
+    margin-right:6%;
+    margin-bottom:10%;
 }
 
 
-.club-heading:active {
-    background-color:#00ff1e;
-    text-decoration:underline #00ff1e;
 
 
+
+.club-heading-abhivriddhi,
+.club-heading{
+    border : none;
+    background-color:rgb(240, 255, 255);
+    border-style:inset ;
+    color:black;
+    text-decoration: underline azure;
+    border : none;
+    border-radius:150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:95%;
+    padding: 4% 3%;
+    margin-top:9%;
+}
+
+
+.abhivriddhi-homelogo,
+.eksutram-homelogo,
+.pdc-homelogo,
+.mlsc-homelogo,
+.speakersclub-homelogo,
+.ekalavya-homelogo,
+.gdsc-homelogo,
+.veloceracing-homelogo
+ {
+    height: 170px;
+    width:170px;
+    margin:1%;
+    margin-left:1%;
+    margin-right:1%;
+    margin-bottom:1%;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration:1.4s ;
+}
+
+    
+#club-logo {
+    transition-delay:3ms;
+    transition-duration:3s;
+}
+#club-logo:hover {
+    transform: scale(1.2);
+}
+
+.abhivriddhi-homelogo,
+.mlsc-homelogo,
+.pdc-homelogo,
+.eksutram-homelogo,
+.speakersclub-homelogo,
+.ekalavya-homelogo,
+.gdsc-homelogo,
+.veloceracing-homelogo {
+    margin:5.5%;
+}
+
+.abhivriddhi-homelogo,
+.speakersclub-homelogo {
+    margin-left:6%;
+}
+
+.speakersclub-homelogo,
+.ekalavya-homelogo,
+.gdsc-homelogo,
+.veloceracing-homelogo {
+    margin-top:7%;
+}
+
+.eksutram-homelogo,
+.veloceracing-homelogo {
+    margin-left:6%;
 
 }
