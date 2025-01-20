@@ -204,3 +204,139 @@
     margin-top:23px;
     margin-bottom:6px;
 }
+
+
+.oursponsers-abhivriddhi-text {
+    color: #2fc92f;
+    text-align:center;
+    font-size:250%;
+    font-family: "fantasy",papyrus;
+    font-weight: bold;
+    margin-bottom:5%;
+    margin-top:17%;
+}
+
+.sponser-logos {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: flex-start;
+    margin: 0 7%;
+    
+}
+
+@keyframes OpacityAnimation {
+    0% {
+        opacity:0;
+        transform:rotate(0deg);
+    }
+    10% {
+        opacity:0.1;
+    }
+    20% {
+        opacity:0.2;
+        transform:rotate(72deg);
+    }
+    30% {
+        opacity:0.3;
+    }
+    40% {
+        opacity:0.4;
+        transform:rotate(144deg);
+    }
+    50% {
+        opacity:0.5;
+    }
+    60% {
+        opacity:0.6;
+        transform:rotate(216deg);
+    }
+    70% {
+        opacity:0.7;
+    }
+    80% {
+        opacity:0.8;
+        transform:rotate(288deg);
+    }
+    90% {
+        opacity:0.9;
+    }
+    100% {
+        opacity:1;
+        transform:rotate(360deg);
+    }
+}
+
+.individual-sponser-logo-waffle-way {
+    height:36%;
+    width:18%;
+    margin-top:2px;
+    margin-bottom:2px;
+    animation-name:OpacityAnimation;
+    animation-timing-function: ease-in-out;
+    animation-delay:1.1s;
+    animation-duration:1.5s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    
+}
+
+.individual-sponser-logo-khs {
+    height:36%;
+    width:18%;
+    margin-top:2px;
+    margin-bottom:2px;
+    animation-name:OpacityAnimation;
+    animation-timing-function: ease-in-out;
+    animation-delay:2.2s;
+    animation-duration:1.5s;
+    animation-iteration-count:1;
+    animation-direction:reverse;
+
+}
+
+
+
+.individual-sponser-logo-royal-enfield {
+    height:36%;
+    width:18%;
+    margin-top:2px;
+    margin-bottom:2px;
+    animation-name:OpacityAnimation;
+    animation-timing-function: ease-in-out;
+    animation-delay:3.3s;
+    animation-duration:1.5s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+    
+}
+
+
+
+.individual-sponser-logo-patils-kitchen {
+    height:36%;
+    width:18%;
+    margin-top:2px;
+    margin-bottom:2px;
+    animation-name:OpacityAnimation;
+    animation-timing-function: ease-in-out;
+    animation-delay:4.4s;
+    animation-duration:1.5s;
+    animation-iteration-count:1;
+    animation-direction:reverse;
+    
+}
+
+
+.individual-sponser-logo-techneo {
+    height:36%;
+    width:18%;
+    margin-top:2px;
+    margin-bottom:2px;
+    animation-name:OpacityAnimation;
+    animation-timing-function: ease-in-out;
+    animation-delay:5.5s;
+    animation-duration:1.5s;
+    animation-iteration-count:1;
+    animation-direction:normal;
+}
