@@ -12,29 +12,80 @@
   cursor: url("cursor.png") , auto;
 }
 
-.container {
+#container {
     color: #ffffff;
-    padding: 0;
+    padding:0;
     font-family:cursive;
     border:black;
-    padding-top:9px;
-    padding-bottom:9px;
-    background-color:rgb(2, 145, 2);
-    margin-top:opx;
-    font-size:15px;
+    background-color:#008000;
     display: flex;
-    justify-content:center;
-    transition-duration:2s;
-    transition-delay:0.1s;
+    align-items:center;
+    padding-top:0.6rem;
+    padding-bottom:0.6rem;
+    padding-right:4%;
+    padding-left:2%;
+    margin-top: 0;
+    cursor:pointer;
+    position:fixed;
+    top:0;
+    box-shadow:0.5px 0.4px 5.55px rgba(255, 255, 255, 0.814);
+    z-index:5;
+}
+#abhivriddhi-title-logo {
+    height:8.4%;
+    width:8.4%;
+    margin-left:8%;
 }
 
-.container:hover{
-    background-color:x;
-    background-color:rgb(41, 200, 41);
-    color: #6E260E;
+#main-menu-logo-filled {
+    margin-right:1.5%;
+    height:3%;
+    width:3%;
+    display:block;
 }
 
-.main-home-page {
+
+#navbar {
+    position:fixed;
+    right:0;
+    background-color:azure;
+    border-bottom-left-radius:25px;
+    margin-top:0;
+    padding-bottom:0.5%;
+    padding-right:2%;
+    padding-left:2%;
+    padding-top:4%;
+    z-index:3;
+    box-shadow:1px 1px 10px white;
+    display:none;
+    
+}
+.unordered-navbar-list {
+    list-style: none;
+    padding-left:0;
+    padding-right:0; 
+}
+.unordered-navbar-list a {
+    text-decoration: underline;
+    text-decoration-color:azure;
+    color:brown;
+    font-size:1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration:0.5s;
+}
+.unordered-navbar-list a:hover {
+    text-decoration: underline;
+    text-decoration-color:azure;
+    color:rgb(0, 38, 0);
+    font-size:1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.unordered-navbar-list li {
+    margin-top:10%;
+    margin-top:10%;
+}
+
+#main-home-page {
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -85,12 +136,6 @@
     margin-bottom:85px;
 }
 
-
-    /* from { width:30%;}
-    to {width:30%;} */
-
-
-
 .about-us-info {
     margin-right:12%;
     color:rgba(240, 255, 255,0.9);
@@ -114,7 +159,7 @@
     padding-left:5%;
 }
 
-.ourgoals-abhivriddhi-text {
+#ourgoals-abhivriddhi-text {
     color: #2fc92f;
     text-align:center;
     font-size:250%;
@@ -206,7 +251,7 @@
 }
 
 
-.oursponsers-abhivriddhi-text {
+#oursponsers-abhivriddhi-text {
     color: #2fc92f;
     text-align:center;
     font-size:250%;
